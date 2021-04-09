@@ -18,8 +18,8 @@ pwd
 ls
 
 ##delete these lines, and replace with your own lines of device sauce
-git clone https://github.com/StyxProject-Devices/vendor_asus_X01AD vendor/asus/X01AD
-git clone https://github.com/StyxProject-Devices/kernel_asus_X01AD kernel/asus/X01AD
-git clone https://github.com/StyxProject-Devices/device_asus_X01AD device/asus/X01AD
+git clone https://github.com/AP-XD/android_vendor_xiaomi_surya vendor/xiaomi/surya
+git clone https://github.com/AP-XD/android_kernel_xiaomi_surya kernel/xiaomi/surya
+git clone https://github.com/AP-XD/android_device_xiaomi_surya device/xiaomi/surya
 
 cd /tmp/rom
