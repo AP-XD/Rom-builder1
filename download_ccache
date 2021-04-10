@@ -1,10 +1,10 @@
 #!/bin/bash
 
-url=https://weathered-dawn-c550.apxd.workers.dev/stylol.tar.gz
+url=https://weathered-dawn-c550.apxd.workers.dev/surya.tar.gz
 
 cd /tmp # Where to download cccahe
 time aria2c $url -x16 -s50
 echo "dl done"
-time tar xf stylol.tar.gz
+time tar xf surya.tar.gz
 echo "unzip done"
-find stylol.tar.gz -delete
+find surya.tar.gz -delete
