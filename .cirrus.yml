@@ -15,8 +15,6 @@ task:
       - bash download_ccache  
     sync_script:
       - bash sync
-    download_rulefix_script:
-      - bash rulefix
     build_script:
       - bash build
     upload_ccache_script:
