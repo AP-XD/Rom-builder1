@@ -1,10 +1,10 @@
 #!/bin/bash
 
-url=https://weathered-dawn-c550.apxd.workers.dev/surya.tar.gz
+url=https://weathered-dawn-c550.apxd.workers.dev/styxizsex2.tar.gz
 
 cd /tmp # Where to download cccahe
 time aria2c $url -x16 -s50
 echo "dl done"
-time tar xf surya.tar.gz
+time tar xf styxizsex2.tar.gz
 echo "unzip done"
-find surya.tar.gz -delete
+find styxizsex2.tar.gz -delete

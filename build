@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /tmp/rom
 source build/envsetup.sh
-lunch styx_surya-userdebug
+lunch styx_X01AD-user
 export SKIP_API_CHECKS=true
 export SKIP_ABI_CHECKS=true
 export ALLOW_MISSING_DEPENDENCIES=true
@@ -27,11 +27,11 @@ up(){
 
 make_rom(){
 	m styx-ota
-	zip=$(up out/target/product/surya/*zip)
+	zip=$(up out/target/product/X01AD/*zip)
 	echo " "
 	echo "$zip"
 	curl -sL https://git.io/file-transfer | sh
-	./transfer wet out/target/product/surya/*zip
+	./transfer wet out/target/product/X01AD/*zip
 }
 
 # make_metalava

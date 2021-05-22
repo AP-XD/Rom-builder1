@@ -1,0 +1,7 @@
+#!/bin/bash
+url=https://weathered-dawn-c550.apxd.workers.dev/base_rules.mk
+cd /tmp # Where to correct rule file
+time aria2c $url
+echo "dl done"
+rm -rf /tmp/rom/build/make/core/base_rules.mk
+mv base_rules.mk /tmp/rom/build/make/core
