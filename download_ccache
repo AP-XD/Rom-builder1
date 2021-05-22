@@ -1,9 +1,6 @@
 #!/bin/bash
-
-url=https://weathered-dawn-c550.apxd.workers.dev/styxizsex2.tar.gz
-
-cd /tmp # Where to download cccahe
-time aria2c $url -x16 -s50
+cd /tmp # Where to download ccache
+time aria2c https://weathered-dawn-c550.apxd.workers.dev/styxizsex2.tar.gz
 echo "dl done"
 time tar xf styxizsex2.tar.gz
 echo "unzip done"

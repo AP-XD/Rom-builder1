@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt install wget
 MANIFEST=https://github.com/StyxProject/manifest
-BRANCH=R  
+BRANCH=R
 
 mkdir -p /tmp/rom
 cd /tmp/rom
